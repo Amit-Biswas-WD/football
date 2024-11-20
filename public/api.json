@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "Lionel Messi",
+    "image": "https://i.ibb.co.com/Qp0b7VL/image1.png",
+    "title": "Forward",
+    "description": "Argentine forward, considered one of the greatest footballers of all time.",
+    "price": 120,
+    "jercynumber": 10
+  },
+  {
+    "id": 2,
+    "name": "Robert Lewandowski",
+    "image": "https://i.ibb.co.com/T4S28MM/image2.png",
+    "title": "Striker",
+    "description": "Polish striker, known for his exceptional goal-scoring abilities.",
+    "price": 650,
+    "jercynumber": 9
+  },
+  {
+    "id": 3,
+    "name": "Sergio Busquets",
+    "image": "https://i.ibb.co.com/tbH2vYF/image3.png",
+    "title": "Midfielder",
+    "description": "Spanish midfielder, an integral part of Barcelona’s midfield for over a decade.",
+    "price": 250,
+    "jercynumber": 5
+  },
+  {
+    "id": 4,
+    "name": "Gerard Piqué",
+    "image": "https://i.ibb.co.com/NYqD1TG/image4.png",
+    "title": "Defender",
+    "description": "Spanish defender, known for his leadership and aerial ability.",
+    "price": 300,
+    "jercynumber": 3
+  },
+  {
+    "id": 5,
+    "name": "Ansu Fati",
+    "image": "https://i.ibb.co.com/Q9F6cjF/image5.png",
+    "title": "Forward",
+    "description": "Young Spanish forward, touted as one of the brightest prospects in world football.",
+    "price": 900,
+    "jercynumber": 22
+  },
+  {
+    "id": 6,
+    "name": "Jordi Alba",
+    "image": "https://i.ibb.co.com/DMG6hVD/image6.png",
+    "title": "Left-back",
+    "description": "Spanish full-back, known for his pace and attacking contributions.",
+    "price": 350,
+    "jercynumber": 18
+  },
+  {
+    "id": 7,
+    "name": "Marc-André ter Stegen",
+    "image": "https://i.ibb.co.com/SdSxM8y/image7.png",
+    "title": "Goalkeeper",
+    "description": "German goalkeeper, regarded as one of the best in the world.",
+    "price": 600,
+    "jercynumber": 1
+  },
+  {
+    "id": 8,
+    "name": "Frenkie de Jong",
+    "image": "https://i.ibb.co.com/b21YZq2/image8.png",
+    "title": "Midfielder",
+    "description": "Dutch midfielder, known for his passing and ball control.",
+    "price": 800,
+    "jercynumber": 21
+  },
+  {
+    "id": 9,
+    "name": "Sergi Roberto",
+    "image": "https://i.ibb.co.com/cJC37S1/image9.png",
+    "title": "Midfielder/Defender",
+    "description": "Spanish versatile player, can operate in multiple positions.",
+    "price": 150,
+    "jercynumber": 20
+  },
+  {
+    "id": 10,
+    "name": "Clément Lenglet",
+    "image": "https://i.ibb.co.com/HVgzfXY/image10.png",
+    "title": "Defender",
+    "description": "French central defender, known for his composure on the ball.",
+    "price": 250,
+    "jercynumber": 15
+  },
+  {
+    "id": 11,
+    "name": "Pierre-Emerick Aubameyang",
+    "image": "https://i.ibb.co.com/6wZhS0r/image11.png",
+    "title": "Striker",
+    "description": "Gabonese striker, known for his blistering pace and goal-scoring record.",
+    "price": 400,
+    "jercynumber": 17
+  },
+  {
+    "id": 12,
+    "name": "Memphis Depay",
+    "image": "https://i.ibb.co.com/NszXs7W/image12.png",
+    "title": "Forward",
+    "description": "Dutch forward, known for his dribbling skills and creativity.",
+    "price": 550,
+    "jercynumber": 9
+  },
+  {
+    "id": 13,
+    "name": "Samuel Umtiti",
+    "image": "https://i.ibb.co.com/gVGnkw5/image13.png",
+    "title": "Defender",
+    "description": "French central defender, known for his strong tackling and aerial prowess.",
+    "price": 200,
+    "jercynumber": 23
+  },
+  {
+    "id": 14,
+    "name": "Martin Braithwaite",
+    "image": "https://i.ibb.co.com/wR8fT5j/image14.png",
+    "title": "Forward",
+    "description": "Danish forward, known for his work ethic and versatility.",
+    "price": 100,
+    "jercynumber": 12
+  },
+  {
+    "id": 15,
+    "name": "Riqui Puig",
+    "image": "https://i.ibb.co.com/qkXhQTH/image15.png",
+    "title": "Midfielder",
+    "description": "Spanish youngster, known for his creativity and technical ability.",
+    "price": 150,
+    "jercynumber": 6
+  },
+  {
+    "id": 16,
+    "name": "Sergiño Dest",
+    "image": "https://i.ibb.co.com/6DzYd5r/image16.png",
+    "title": "Right-back",
+    "description": "American right-back, known for his speed and attacking runs.",
+    "price": 200,
+    "jercynumber": 2
+  },
+  {
+    "id": 17,
+    "name": "Óscar Mingueza",
+    "image": "https://i.ibb.co.com/BV3MMwY/image17.png",
+    "title": "Defender",
+    "description": "Spanish central defender, known for his strength and adaptability.",
+    "price": 100,
+    "jercynumber": 28
+  },
+  {
+    "id": 18,
+    "name": "Miralem Pjanic",
+    "image": "https://i.ibb.co.com/7rfnhQS/image18.png",
+    "title": "Midfielder",
+    "description": "Bosnian midfielder, known for his passing and set-piece ability.",
+    "price": 300,
+    "jercynumber": 8
+  },
+  {
+    "id": 19,
+    "name": "Jules Koundé",
+    "image": "https://i.ibb.co.com/SQ44s0J/image19.png",
+    "title": "Defender",
+    "description": "French defender, known for his speed and defensive solidity.",
+    "price": 550,
+    "jercynumber": 23
+  },
+  {
+    "id": 20,
+    "name": "Ferran Torres",
+    "image": "https://i.ibb.co.com/YtG7G9p/image20.png",
+    "title": "Winger",
+    "description": "Spanish winger, known for his dribbling and flair.",
+    "price": 600,
+    "jercynumber": 11
+  },
+  {
+    "id": 21,
+    "name": "Samuel Umtiti",
+    "image": "https://i.ibb.co.com/JrnJjsm/Screenshot-1.png",
+    "title": "Defender",
+    "description": "French defender, strong in aerial duels and tackles.",
+    "price": 200,
+    "jercynumber": 23
+  }
+]
