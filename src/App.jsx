@@ -13,8 +13,14 @@ function App() {
   const [selectedProducts, setSelectedProducts] = useState([]);
 
   const handleSelectedProduct = (product) => {
-    const newProducts = [...selectedProducts, product];
-    setSelectedProducts(newProducts);
+    const isExist = selectedProducts.find((pd) => pd.id == product.id);
+
+    if (isExist) {
+      alert("This is Already exist...");
+    } else {
+      const newProducts = [...selectedProducts, product];
+      setSelectedProducts(newProducts);
+    }
   };
   console.log(selectedProducts);
 
