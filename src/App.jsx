@@ -14,18 +14,28 @@ function App() {
 
   const [price, setPrice] = useState(10000);
 
-  const handleSelectedProduct = (product) => {
-    const isExist = selectedProducts.find((p) => p.id === product.id);
+  const handleIncreasePrice = (pr) => {
+    setPrice(price + pr);
+  };
 
+  const handleDeletePride = (id) => {
+    const product = selectedProducts.find((p) => p.id == id);
+    setPrice(price - product.price);
+  };
+
+  const handleSelectedProduct = (product) => {
+    const isExist = selectedProducts.find((p) => p.id == product.id);
     if (isExist) {
       alert("Already Exist...");
     } else {
+      handleIncreasePrice(product.price);
       const newProducts = [...selectedProducts, product];
       setSelectedProducts(newProducts);
     }
   };
 
   const handleDelete = (id) => {
+    handleDeletePride(id);
     const removeProduct = selectedProducts.filter(
       (product) => product.id != id
     );
