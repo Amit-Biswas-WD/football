@@ -27,7 +27,7 @@ const Navbar = ({ selectedProducts, price }) => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {items.map((item) => (
               <li>{item}</li>
@@ -37,7 +37,7 @@ const Navbar = ({ selectedProducts, price }) => {
         <a className="text-xl">Football</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-3 text-lg font-semibold">
+        <ul className="menu-horizontal px-3 gap-6 text-lg font-semibold">
           {items.map((item) => (
             <li>{item}</li>
           ))}
