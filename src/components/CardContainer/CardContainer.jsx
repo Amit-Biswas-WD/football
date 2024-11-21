@@ -1,7 +1,12 @@
 import About from "../About/About";
 import Cart from "../Cart/Cart";
 
-const CardContainer = ({ handleIsActiveState, isActive, selectedProducts }) => {
+const CardContainer = ({
+  handleIsActiveState,
+  isActive,
+  selectedProducts,
+  handleDelete,
+}) => {
   //   console.log(isActive);
   return (
     <div className="col-span-2">
@@ -20,7 +25,11 @@ const CardContainer = ({ handleIsActiveState, isActive, selectedProducts }) => {
           ABOUT
         </div>
       </div>
-      {isActive.cart ? <Cart selectedProducts={selectedProducts} /> : <About />}
+      {isActive.cart ? (
+        <Cart selectedProducts={selectedProducts} handleDelete={handleDelete} />
+      ) : (
+        <About />
+      )}
     </div>
   );
 };

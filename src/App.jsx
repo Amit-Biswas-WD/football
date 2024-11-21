@@ -12,6 +12,8 @@ function App() {
 
   const [selectedProducts, setSelectedProducts] = useState([]);
 
+  const [price, setPrice] = useState(10000);
+
   const handleSelectedProduct = (product) => {
     const isExist = selectedProducts.find((p) => p.id === product.id);
 
@@ -21,6 +23,13 @@ function App() {
       const newProducts = [...selectedProducts, product];
       setSelectedProducts(newProducts);
     }
+  };
+
+  const handleDelete = (id) => {
+    const removeProduct = selectedProducts.filter(
+      (product) => product.id != id
+    );
+    setSelectedProducts(removeProduct);
   };
 
   const handleIsActiveState = (status) => {
@@ -39,10 +48,11 @@ function App() {
 
   return (
     <>
-      <Navbar selectedProducts={selectedProducts.length} />
+      <Navbar selectedProducts={selectedProducts.length} price={price} />
       <div className="container mx-auto my-10 grid grid-cols-6 gap-6">
         <AllProducts handleSelectedProduct={handleSelectedProduct} />
         <CardContainer
+          handleDelete={handleDelete}
           selectedProducts={selectedProducts}
           isActive={isActive}
           handleIsActiveState={handleIsActiveState}

@@ -1,9 +1,9 @@
-const Navbar = ({ selectedProducts }) => {
+const Navbar = ({ selectedProducts, price }) => {
   const items = [
     <li>Home</li>,
     <li>Product</li>,
     <li>Card {selectedProducts}</li>,
-    <li>$ 500</li>,
+    <li>$ {price}</li>,
   ];
   return (
     <div className="navbar  bg-green-400 text-lg font-semibold">

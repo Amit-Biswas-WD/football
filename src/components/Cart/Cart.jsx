@@ -1,4 +1,4 @@
-const Cart = ({ selectedProducts }) => {
+const Cart = ({ selectedProducts, handleDelete }) => {
   return (
     <div>
       {selectedProducts.map((product) => (
@@ -7,7 +7,12 @@ const Cart = ({ selectedProducts }) => {
           <h2>{product.name}</h2>
           <p>{product.title}</p>
           <div>
-            <button className="btn btn-outline btn-accent">Delete</button>
+            <button
+              onClick={() => handleDelete(product.id)}
+              className="btn btn-outline btn-accent"
+            >
+              Delete
+            </button>
           </div>
         </div>
       ))}
