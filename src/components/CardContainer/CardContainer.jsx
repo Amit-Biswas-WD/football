@@ -10,7 +10,7 @@ const CardContainer = ({
   //   console.log(isActive);
   return (
     <div className="col-span-2">
-      <h1>This is Card Container Page.</h1>
+      <h1 className="text-2xl font-bold">This is Card Container</h1>
       <div className="flex justify-between my-10">
         <div
           onClick={() => handleIsActiveState("cart")}
