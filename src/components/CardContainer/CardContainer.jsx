@@ -1,7 +1,7 @@
 import About from "../About/About";
 import Cart from "../Cart/Cart";
 
-const CardContainer = ({ handleIsActiveState, isActive }) => {
+const CardContainer = ({ handleIsActiveState, isActive, selectedProducts }) => {
   //   console.log(isActive);
   return (
     <div className="col-span-2">
@@ -20,7 +20,7 @@ const CardContainer = ({ handleIsActiveState, isActive }) => {
           ABOUT
         </div>
       </div>
-      {isActive.cart ? <Cart /> : <About />}
+      {isActive.cart ? <Cart selectedProducts={selectedProducts} /> : <About />}
     </div>
   );
 };

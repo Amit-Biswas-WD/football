@@ -1,7 +1,16 @@
-const Cart = () => {
+const Cart = ({ selectedProducts }) => {
   return (
     <div>
-      <h1>This is Cart</h1>
+      {selectedProducts.map((product) => (
+        <div className="flex gap-3 mb-6 items-center text-lg font-medium">
+          <img className="w-28 h-24 " src={product.image} alt="" />
+          <h2>{product.name}</h2>
+          <p>{product.title}</p>
+          <div>
+            <button className="btn btn-outline btn-accent">Delete</button>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

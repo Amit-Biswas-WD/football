@@ -1,12 +1,12 @@
-const Navbar = () => {
+const Navbar = ({ selectedProducts }) => {
   const items = [
     <li>Home</li>,
     <li>Product</li>,
-    <li>Card 1</li>,
+    <li>Card {selectedProducts}</li>,
     <li>$ 500</li>,
   ];
   return (
-    <div className="navbar  bg-green-400">
+    <div className="navbar  bg-green-400 text-lg font-semibold">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
         <a className="text-xl">Football</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-3">
+        <ul className="menu menu-horizontal px-1 gap-3 text-lg font-semibold">
           {items.map((item) => (
             <li>{item}</li>
           ))}

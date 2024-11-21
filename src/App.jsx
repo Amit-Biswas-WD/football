@@ -13,16 +13,15 @@ function App() {
   const [selectedProducts, setSelectedProducts] = useState([]);
 
   const handleSelectedProduct = (product) => {
-    const isExist = selectedProducts.find((pd) => pd.id == product.id);
+    const isExist = selectedProducts.find((p) => p.id === product.id);
 
     if (isExist) {
-      alert("This is Already exist...");
+      alert("Already Exist...");
     } else {
       const newProducts = [...selectedProducts, product];
       setSelectedProducts(newProducts);
     }
   };
-  console.log(selectedProducts);
 
   const handleIsActiveState = (status) => {
     if (status == "cart") {
@@ -40,10 +39,11 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar selectedProducts={selectedProducts.length} />
       <div className="container mx-auto my-10 grid grid-cols-6 gap-6">
         <AllProducts handleSelectedProduct={handleSelectedProduct} />
         <CardContainer
+          selectedProducts={selectedProducts}
           isActive={isActive}
           handleIsActiveState={handleIsActiveState}
         />

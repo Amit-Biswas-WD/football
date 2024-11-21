@@ -18,7 +18,7 @@ const SingleProduct = ({ product, handleSelectedProduct }) => {
         <div className="flex justify-between">
           <p>Price: {price} $</p>
           <button
-            onClick={() => handleSelectedProduct({ product })}
+            onClick={() => handleSelectedProduct(product)}
             className="btn btn-outline btn-accent"
           >
             Add To Cart
